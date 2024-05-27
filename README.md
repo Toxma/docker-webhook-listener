@@ -12,17 +12,14 @@ Run bash script
 
 This script will : 
 
-- Delete the container pylistener_run if exists
+- Delete the container webhooklistener if exists
 - Build a new image
 - Run a container
 
-
-Make a POST call with Curl, Postman/Insomnia to : http://0.0.0.0:5000
-
-In body field chose Raw with JSON Type and add your JSON data.
+Make a POST call with Curl, Postman/Insomnia to : http://0.0.0.0:5000/webhook
 
 ## Result
 
-When you launch the script and you make POST call you will see that :
+When you launch the script, and you make POST call you will see that :
 
-![Alt text](result.png)
+![Alt text](assets/result.png)
